@@ -297,11 +297,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"aafafa/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "ChartViewV2-Demo-Project/Preview\\ Content";
 				DEVELOPMENT_TEAM = NBG78KHDFK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = aafafa/Info.plist;
+				INFOPLIST_FILE = ChartViewV2-Demo-Project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -328,11 +328,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"aafafa/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "ChartViewV2-Demo-Project/Preview\\ Content";
 				DEVELOPMENT_TEAM = NBG78KHDFK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = aafafa/Info.plist;
+				INFOPLIST_FILE = ChartViewV2-Demo-Project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
