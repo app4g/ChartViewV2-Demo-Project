@@ -14,6 +14,9 @@ import SwiftUICharts
 
 struct ContentView: View {
   var demoData: [(String, Double)] = ([("M",9), ("T",2), ("W",5), ("T",6), ("F",7), ("S",0), ("S",0)])
+  var pieChartData: [Double] = [1,2,3,4,5]
+  var pieChartData2: [(String, Double, Double)] = ([("Bike", 1, 0), ("Run", 2, 0), ("Swim", 0, 0)])
+
   var plan: [(String, Double)] = ([("M",2), ("T",2), ("W",3), ("T",5), ("F",3), ("S",3), ("S",3)])
   var demoData2: [(String, Double, Double)] = ([("M",7,8), ("T",2,0), ("W",6,3), ("T",4,4), ("F",3,3), ("S",0,8), ("S",0,0)])
   var demoData4: [(String, Double)] = ([("M",0), ("T",2), ("W",3), ("T",4), ("F",3), ("S",8), ("S",10)])
@@ -49,6 +52,36 @@ struct ContentView: View {
             }
             .padding(.horizontal, 10)
           }
+          
+//          VStack {
+////            CardView(showShadow: true) {
+//            let _ = print("PIE")
+//              PieChart()
+//              .data([11.0,22.0])
+//                .chartStyle(ChartStyle(backgroundColor: .white,foregroundColor: [ColorGradient(.blue, .purple)]))
+////            }
+//          }
+          
+          HStack {
+            CardView(showShadow: true) {
+                VStack (alignment:.leading){
+                  Text("Elevation").font(.caption)
+                  
+                  ChartLabel("Total Elevation XXXX", type: .custom(size: 15, padding: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0), color: Color(UIColor.secondaryLabel)), format: "%0.0fm ")
+                }
+                .padding([.horizontal, .top], 10)
+              
+              PieChart()
+                .padding(.horizontal,10)
+                .padding(.bottom,5)
+            }
+            .data(pieChartData)
+            .chartStyle(ChartStyle(backgroundColor: .white,foregroundColor: [ColorGradient(.blue, .blue), ColorGradient(.blue, .red)]))
+          }
+          .padding(.horizontal, 10)
+          .frame(width: screenProperties.size.width, height: 200, alignment: .center)
+          
+
           
             HStack {
               CardView(showShadow: true) {
